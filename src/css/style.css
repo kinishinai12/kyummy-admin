@@ -1,0 +1,114 @@
+#dashboardMain-container{
+    display: flex;
+    flex-direction: row;
+}
+div.dashboardSidebar{
+    width: 20%;
+    background: #d94496;
+    height: 200vh;
+}
+div.dashboardContent-container{
+    width: 100%;
+    background: #f2f3f4;
+
+}
+h1.dashboardLogo {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+div.dashboardSidebar-user{
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+div.dashboardSidebar-user img{
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+div.dashboardSidebar-user span{
+    font-size: 15px ;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: -30px ;
+}
+ul.dashboardList{
+    padding: 5px;
+    margin-top: 5px;
+}
+ul.dashboardList li{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+ul.dashboardList li a{
+    text-transform: none;
+    color: #fff;
+}
+ul.dashboardList li a i{
+    font-size: 25px;
+}
+ul.dashboardList li.menuActive{
+    background: #f47dbb;
+    color: #fff;
+}
+ul.dashboardList li:hover{
+    background: #f47dbb;
+    color: #fff;
+    transition: 0.5s all;
+}
+div.dashboardContent-topNav{
+    background: #ffb6d5;
+    padding: 20px;
+
+}
+div.dashboardContent-topNav a{
+    color: #d94496;
+    font-size: 20px;
+    text-decoration: none;
+}
+#logoutBttn{
+    float: right;
+    font-size: 20px;
+}
+div.dashboardContent {
+    padding: 20px 10px 10px 10px;
+}
+div.dashboardContent-main {
+    background: #ffb6d5;
+    height: 80%;
+    min-height: 800px;
+}
+div.contentTable{
+    text-align: center;
+    padding: 10px 10px ;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+
+
+td.button {
+    color: #d94496;
+    font-size: 20px;
+    text-align: center;
+}

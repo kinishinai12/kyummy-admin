@@ -1,0 +1,166 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+body#login{
+    background-size: cover;
+    font-family: arial;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.loginHeader{
+    text-align: center;
+    margin-bottom: 50px;
+}
+div.loginHeader h1{
+    color: #d94496;
+    font-size: 65px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+div.loginHeader h3{
+    color: #464644;
+    font-size: 30px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+div.loginHeader h3:after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: #f47dbb;
+    width: 40%;
+    margin: 0 auto;
+
+}
+div.loginBody form{
+    margin:0 auto;
+    width: 500px;
+    background:#e0115f(0,0,.5,.5);
+    padding: 50px;
+    border: 5px solid #d94496;
+    border-radius: 5px;
+    
+}
+div.loginInput{
+    margin: 20px;
+}
+div.loginInput label{
+    color: #464644;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+div.loginInput input{
+    height: 30px;
+    width: 100%;
+    border:2px solid #d94496;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+div.loginButton{
+    margin: 5px;
+    text-align: center;
+}
+div.loginButton button{
+    font-size: 15px;
+    padding: 10px 40px;
+    background: #f47dbb;
+    border: none;
+    color: whitesmoke;
+   
+}
+/* HOMEPAGE STYLE */
+div.header{
+    width: 100%;
+    background: #d84f9a ;
+    padding: 0px 20px;
+    height: 30px;
+    text-align: right;
+}
+div.header a{
+    color: aliceblue;
+    font-size: 15px;
+    padding: 5px 10px ;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #fff;
+
+}
+div.header a:hover{
+    border-radius: 5px;
+    border: 2px solid #ffff;
+}
+div.banner{
+    background-size: cover;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+}
+div.homepageContainer{
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+    padding-bottom: 10px;
+
+}
+div.bannerHeader h1{
+    font-size: 75px;
+    color: #d94496;
+    padding-bottom: 0px;
+
+}
+div.bannerHeader p1{
+    font-size: 40px;
+    color: #1d1d1a;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+p.bannerTag{
+    border-style: dotted;
+    border-width: 2px;
+    color: #f47dbb;
+}
+p.bannerTagline{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #1d1d1a;
+    margin: inherit;
+    text-align: center;
+}
+div.bannericons{
+    margin-top: 40px;
+    margin-left: 250px;
+    color: antiquewhite;
+}
+div.bannericons i{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    background: #e06e9a;
+    border-radius: 40%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+
+}
+div.bannericons i:first-child{
+    margin-left: 0px auto;
+}
+div.bannericons i:hover{
+    color: #d94496;
+    background: #e62e74 ;
+    font-size: 25px;
+    transition: 0.5s all;
+}
+ div.orderReceive{
+     height: 200px;
+     margin-left: 100px;
+ }
+ div.orderReceive h2{
+     font-size: 30px;
+     font: bold ;
+ }
